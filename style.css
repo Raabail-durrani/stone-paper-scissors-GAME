@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(57, 53, 97);
+    color: rgb(224, 211, 211);
+    text-align: center;
+    height: 10vmin;
+    width: auto;
+    font-size: 4vmin;
+    margin-bottom: 2vmin;
+    padding: 1vmin;
+    border: none;
+
+}
+
+.container {
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+button:hover{
+    opacity:0.5;
+    transform: scale(1.1);
+    cursor: pointer;
+    border:2px solid blueviolet;
+    
+}
+
+button {
+    height: 150px;
+    font-size:5rem;
+    width: 150px;
+    margin: 1.5rem;
+    transition: all 0.3s ease;
+    border:none;
+
+}
+
+.circle1 {
+    background-color: rgb(201, 79, 118);
+    border-radius: 50%;
+}
+
+.circle2 {
+    background-color: rgb(171, 171, 40);
+    border-radius: 50%;
+
+}
+
+.circle3 {
+    background-color: rgb(160, 210, 227);
+    border-radius: 50%;
+}
+.score-board{
+    margin-top:2rem;
+    gap:5rem;
+    display:flex;
+    justify-content: center;
+}
+.winmsg{
+    margin-top:2rem;
+    margin-bottom:20px;
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 15px;
+    min-width:10rem;
+    padding:0.5rem 1rem;
+    background-color: blueviolet;
+    color:aliceblue;
+    font-size:1.2rem;
+}
